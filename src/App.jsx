@@ -8,7 +8,7 @@ function App() {
       <header className=" rounded-t-md md:rounded-none md:rounded-r-md  relative">
         <img className='rounded-t-md md:rounded-none md:rounded-r-md md:hidden ' src={photo} alt="a header" />
         <img className=' rounded-r-md hidden md:inline-block' src={image} alt="desktop" />
-        <div className=' rounded-t-md md:rounded-none md:rounded-r-md  absolute top-0 w-full h-full bg-Dark-violet opacity-60 hover:opacity-70'></div>
+        <div className=' rounded-t-md md:rounded-none md:rounded-r-md  absolute top-0 w-full h-full bg-Soft-violet-accent mix-blend-multiply opacity-75 hover:opacity-100'></div>
       </header>
       <main className=' flex text-center flex-col p-9 font-mainthing font-normal gap-5 md:text-left md:w-desktop  md:mx-12'>
         <h1 className=' text-3xl font-title font-bold text-White-main-heading-stats'>Get <span className=' text-Soft-violet-accent'>insights</span> that help your business grow.</h1>
